@@ -242,9 +242,9 @@ body[data-active-tab]:not([data-active-tab="home"]) .hero-image-tabs {
 }
 
 body[data-active-tab]:not([data-active-tab="home"]) .hero {
-  min-height: clamp(430px, 52vh, 620px);
-  padding-top: 132px;
-  padding-bottom: 86px;
+  min-height: clamp(230px, 28vh, 330px);
+  padding-top: 92px;
+  padding-bottom: 28px;
   background:
     radial-gradient(circle at 50% 45%, rgba(53, 185, 223, 0.16), transparent 40%),
     linear-gradient(90deg, #456b82, #9dbdca 48%, #8fb2c4);
@@ -270,6 +270,18 @@ body[data-active-tab]:not([data-active-tab="home"]) .hero-overlay {
   background:
     linear-gradient(90deg, rgba(5, 30, 55, 0.34), rgba(8, 55, 88, 0.12) 48%, rgba(8, 60, 100, 0.03)),
     linear-gradient(0deg, rgba(238, 246, 251, 0.68), rgba(238, 246, 251, 0) 13%);
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .section {
+  padding: clamp(34px, 4vh, 48px) 0 clamp(30px, 3.6vh, 44px);
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .section-heading.wide {
+  margin-bottom: clamp(18px, 2vh, 26px);
+}
+
+body[data-active-tab="services"] .why {
+  display: none;
 }
 
 .eyebrow {
@@ -422,11 +434,40 @@ h3 {
   font-size: clamp(18px, 1.35vw, 20px);
 }
 
+body[data-active-tab]:not([data-active-tab="home"]) .section-heading {
+  max-width: 720px;
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) h2 {
+  font-size: clamp(28px, 2.55vw, 40px);
+  line-height: 1.08;
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) h3 {
+  font-size: clamp(18px, 1.25vw, 21px);
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .eyebrow {
+  margin-bottom: 8px;
+  font-size: clamp(12px, 0.85vw, 13px);
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .split-body p {
+  margin-bottom: 14px;
+  font-size: clamp(16px, 1.08vw, 18px);
+  line-height: 1.55;
+}
+
 .value-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-top: 30px;
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .value-grid {
+  gap: 12px;
+  margin-top: 18px;
 }
 
 .value-grid article {
@@ -459,6 +500,11 @@ h3 {
   padding: clamp(22px, 2vw, 28px);
 }
 
+body[data-active-tab="services"] .service-card {
+  min-height: 300px;
+  padding: clamp(18px, 1.6vw, 22px);
+}
+
 .card-index {
   display: inline-flex;
   margin-bottom: 22px;
@@ -472,6 +518,14 @@ h3 {
   gap: 9px;
   padding-left: 18px;
   margin: 0;
+}
+
+body[data-active-tab="services"] .card-index {
+  margin-bottom: 14px;
+}
+
+body[data-active-tab="services"] .service-card ul {
+  gap: 6px;
 }
 
 .industries {
@@ -492,6 +546,11 @@ h3 {
   padding: clamp(20px, 2vw, 26px);
 }
 
+body[data-active-tab="industries"] .industry-list article,
+body[data-active-tab="services"] .why-grid article {
+  padding: clamp(16px, 1.45vw, 20px);
+}
+
 .why {
   width: 100%;
   max-width: none;
@@ -507,8 +566,16 @@ h3 {
   margin-top: 32px;
 }
 
+body[data-active-tab="projects"] .project-timeline {
+  margin-top: 22px;
+}
+
 .project-timeline article {
   padding: clamp(24px, 2.4vw, 32px);
+}
+
+body[data-active-tab="projects"] .project-timeline article {
+  padding: clamp(18px, 1.7vw, 24px);
 }
 
 .project-timeline span {
@@ -518,6 +585,11 @@ h3 {
   font-size: 16px;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+body[data-active-tab="projects"] .project-timeline span {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .contact {
@@ -585,6 +657,21 @@ h3 {
   border-radius: var(--radius);
   color: var(--ink);
   box-shadow: var(--shadow-strong);
+}
+
+body[data-active-tab="contact"] .contact-details {
+  margin-top: 18px;
+}
+
+body[data-active-tab="contact"] .contact-form {
+  gap: 10px;
+  padding: clamp(18px, 1.7vw, 24px);
+}
+
+body[data-active-tab="contact"] .contact-form input,
+body[data-active-tab="contact"] .contact-form select,
+body[data-active-tab="contact"] .contact-form textarea {
+  padding: 10px 12px;
 }
 
 .contact-form label {
@@ -657,6 +744,10 @@ h3 {
 }
 
 @media (max-width: 1180px) {
+  body[data-active-tab]:not([data-active-tab="home"]) .hero {
+    min-height: clamp(210px, 25vh, 290px);
+  }
+
   .service-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -672,6 +763,16 @@ h3 {
 @media (max-width: 940px) {
   .site-header {
     height: 78px;
+  }
+
+  body[data-active-tab]:not([data-active-tab="home"]) .hero {
+    min-height: 220px;
+    padding-top: 82px;
+    padding-bottom: 22px;
+  }
+
+  body[data-active-tab]:not([data-active-tab="home"]) .section {
+    padding: 38px 0 46px;
   }
 
   .brand-mark {
@@ -760,9 +861,9 @@ h3 {
   }
 
   body[data-active-tab]:not([data-active-tab="home"]) .hero {
-    min-height: 340px;
-    padding-top: 98px;
-    padding-bottom: 54px;
+    min-height: 190px;
+    padding-top: 82px;
+    padding-bottom: 24px;
   }
 
   .hero-overlay {
@@ -792,6 +893,10 @@ h3 {
 
   .section {
     padding: 62px 0;
+  }
+
+  body[data-active-tab]:not([data-active-tab="home"]) .section {
+    padding: 34px 0 42px;
   }
 
   .stats,
