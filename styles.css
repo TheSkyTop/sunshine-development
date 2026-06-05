@@ -727,13 +727,13 @@ body[data-active-tab="contact"] .contact-form textarea {
 }
 
 .site-footer {
-  min-height: 84px;
+  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--muted);
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 400;
   text-align: center;
 }
 
