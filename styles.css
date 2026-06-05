@@ -101,16 +101,17 @@ select {
 }
 
 .brand strong {
-  color: var(--ink-strong);
-  font-size: clamp(18px, 1.45vw, 23px);
-  line-height: 1.1;
+  color: #102a42;
+  font-size: clamp(16px, 1.22vw, 20px);
+  font-weight: 640;
+  line-height: 1.12;
 }
 
 .brand small {
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0;
+  color: #64798b;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
@@ -123,34 +124,36 @@ select {
 
 .site-nav a,
 .lang-toggle {
-  min-height: 42px;
+  min-height: 40px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--radius);
-  color: #18334c;
-  font-size: 15px;
-  font-weight: 800;
+  color: #19344c;
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
   text-decoration: none;
   white-space: nowrap;
 }
 
 .site-nav a {
-  padding: 0 13px;
+  padding: 0 12px;
 }
 
 .site-nav a:hover,
 .site-nav a.is-active,
 .lang-toggle:hover {
-  background: rgba(53, 185, 223, 0.12);
-  color: var(--deep);
+  background: rgba(53, 185, 223, 0.08);
+  color: #0b426b;
 }
 
 .site-nav .nav-cta {
   margin-left: 6px;
-  background: linear-gradient(135deg, var(--deep), var(--blue));
+  background: linear-gradient(135deg, #0a3659, #126591);
   color: #fff;
-  box-shadow: 0 10px 22px rgba(7, 48, 82, 0.18);
+  font-weight: 680;
+  box-shadow: 0 9px 20px rgba(7, 48, 82, 0.16);
 }
 
 .site-nav .nav-cta:hover,
@@ -162,10 +165,10 @@ select {
 .lang-toggle {
   flex: 0 0 auto;
   margin-left: 12px;
-  min-width: 58px;
+  min-width: 56px;
   padding: 0 14px;
   border: 1px solid rgba(157, 190, 209, 0.58);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.62);
 }
 
 .nav-toggle {
@@ -859,11 +862,11 @@ body[data-active-tab="contact"] .contact-form textarea {
   }
 
   .brand strong {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .brand small {
-    font-size: 11px;
+    font-size: 10.5px;
   }
 
   .hero {
