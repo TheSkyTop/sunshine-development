@@ -456,9 +456,20 @@ body[data-active-tab="industries"] .section-heading h2 {
 }
 
 body[data-active-tab]:not([data-active-tab="home"]) h3 {
-  color: #0f2f49;
-  font-size: clamp(17px, 1.1vw, 20px);
-  font-weight: 760;
+  color: #183a54;
+  font-size: clamp(16px, 1.02vw, 19px);
+  font-weight: 620;
+  line-height: 1.28;
+}
+
+body[data-active-tab]:not([data-active-tab="home"]) .service-card h3,
+body[data-active-tab]:not([data-active-tab="home"]) .industry-list h3,
+body[data-active-tab]:not([data-active-tab="home"]) .project-timeline h3,
+body[data-active-tab]:not([data-active-tab="home"]) .value-grid h3 {
+  color: #173a55;
+  font-size: clamp(15px, 0.98vw, 18px);
+  font-weight: 560;
+  letter-spacing: 0;
 }
 
 body[data-active-tab]:not([data-active-tab="home"]) .eyebrow {
