@@ -95,8 +95,8 @@ select {
 
 .brand-name {
   color: var(--navy);
-  font-size: clamp(18px, 1.32vw, 21px);
-  font-weight: 690;
+  font-size: clamp(16px, 1.18vw, 18px);
+  font-weight: 620;
   line-height: 1.1;
   white-space: nowrap;
 }
@@ -116,8 +116,8 @@ select {
   justify-content: center;
   border-radius: var(--radius);
   color: #2d3d5f;
-  font-size: 16px;
-  font-weight: 650;
+  font-size: 14.5px;
+  font-weight: 570;
   text-decoration: none;
   white-space: nowrap;
   transition:
@@ -146,7 +146,7 @@ select {
   border: 1px solid rgba(38, 61, 120, 0.16);
   background: rgba(255, 255, 255, 0.66);
   color: var(--navy);
-  font-weight: 750;
+  font-weight: 600;
 }
 
 .site-nav .nav-cta {
@@ -154,7 +154,7 @@ select {
   padding-inline: 19px;
   background: var(--navy);
   color: #fff;
-  font-weight: 720;
+  font-weight: 620;
   box-shadow: 0 10px 22px rgba(24, 42, 82, 0.14);
 }
 
@@ -269,9 +269,9 @@ h1 {
 
 h2 {
   margin-bottom: 0;
-  color: var(--navy-deep);
+  color: #243a6b;
   font-size: clamp(29px, 2.55vw, 40px);
-  font-weight: 700;
+  font-weight: 620;
   line-height: 1.16;
 }
 
@@ -292,8 +292,8 @@ html:lang(zh-CN) body {
 html:lang(zh-CN) .site-nav a,
 html:lang(zh-CN) .lang-toggle,
 html:lang(zh-CN) .view-toggle button {
-  font-size: 16.5px;
-  font-weight: 680;
+  font-size: 15px;
+  font-weight: 580;
 }
 
 html:lang(zh-CN) .eyebrow {
@@ -1067,7 +1067,7 @@ html:lang(zh-CN) .capability-list span {
 @media (max-width: 1160px) {
   .site-nav a {
     padding-inline: 9px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .snapshot,
@@ -1093,7 +1093,7 @@ html:lang(zh-CN) .capability-list span {
   }
 
   .brand-name {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .nav-toggle {
@@ -1165,7 +1165,7 @@ html:lang(zh-CN) .capability-list span {
 
   .brand-name {
     max-width: min(46vw, 190px);
-    font-size: clamp(13px, 3.6vw, 15px);
+    font-size: clamp(13px, 3.4vw, 14.5px);
     white-space: normal;
   }
 
