@@ -3,184 +3,230 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Everest Supplies Australia provides international trade, import, export, procurement and supply chain management solutions.">
-    <title>Everest Supplies Australia | Global Trade & Supply Chain Solutions</title>
-    <link rel="icon" type="image/svg+xml" href="assets/everest-supplies-logo.svg?v=ship-logo-20260605">
-    <link rel="apple-touch-icon" href="assets/everest-supplies-logo.svg?v=ship-logo-20260605">
-    <link rel="stylesheet" href="styles.css?v=card-title-soft-20260605">
+    <meta name="description" data-i18n-content="meta.description" content="Australia Sunshine Development is an Australian property development company delivering residential, commercial, mixed-use and strategic development projects across Melbourne and Sydney.">
+    <meta name="theme-color" content="#22376f">
+    <title>Australia Sunshine Development | Property Development Australia</title>
+    <link rel="icon" type="image/png" href="assets/sunshine-development-favicon.png?v=complete-symbol-20260608">
+    <link rel="apple-touch-icon" href="assets/sunshine-development-favicon.png?v=complete-symbol-20260608">
+    <link rel="stylesheet" href="styles.css?v=sunshine-development-prelaunch-responsive-20260608">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Australia Sunshine Development",
+        "url": "https://australiasunshinedevelopment.com.au/",
+        "logo": "assets/sunshine-development-logo-transparent.png",
+        "description": "Australian property development company focused on residential, commercial, mixed-use and strategic development projects across Melbourne and Sydney.",
+        "areaServed": ["Melbourne", "Sydney", "Australia"],
+        "sameAs": []
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#home" aria-label="Everest Supplies Australia home">
-        <img class="brand-mark" src="assets/everest-supplies-logo.svg?v=ship-logo-20260605" alt="">
-        <span>
-          <strong>Everest Supplies</strong>
-          <small>Australia</small>
-        </span>
+      <a class="brand" href="#home" aria-label="Australia Sunshine Development home">
+        <img class="brand-symbol" src="assets/sunshine-development-symbol.png" alt="">
+        <span class="brand-name">Australia Sunshine Development</span>
       </a>
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <button class="nav-toggle" type="button" data-i18n-aria-label="nav.openMenu" aria-label="Open menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#industries">Industries</a>
-        <a href="#projects">Projects</a>
-        <a class="nav-cta" href="#contact">Contact</a>
-        <button class="lang-toggle" id="languageToggle" type="button" aria-label="Switch language">CN</button>
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#capabilities" data-i18n="nav.capabilities">Capabilities</a>
+        <a href="#partnerships" data-i18n="nav.partnerships">Partnerships</a>
+        <a class="nav-cta" href="#contact" data-i18n="nav.contact">Contact</a>
+        <button class="lang-toggle" id="languageToggle" type="button" aria-label="Switch to Chinese">CN</button>
       </nav>
     </header>
 
-    <main id="home">
-      <section class="hero">
-        <img src="assets/everest-trade-hero.png" alt="International port logistics and global trade operations" class="hero-image hero-image-home">
-        <img src="assets/everest-tab-hero-dynamic.png" alt="Container ship moving toward the right side of a modern port" class="hero-image hero-image-tabs">
-        <div class="hero-overlay"></div>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-media-set" aria-hidden="true">
+          <img class="hero-media is-active" src="assets/hero-melbourne-coast-residential.png" alt="">
+          <img class="hero-media" src="assets/hero-melbourne-commercial.png" alt="">
+          <img class="hero-media" src="assets/hero-australian-coastal-realestate.png" alt="">
+          <img class="hero-media" src="assets/about-australian-home-exterior.png" alt="">
+        </div>
+        <div class="hero-shade"></div>
         <div class="hero-content">
-          <p class="eyebrow">International Trade | Import & Export | Procurement</p>
-          <h1>Global Trade. Trusted Supply.</h1>
-          <p class="hero-copy">Connecting businesses worldwide through professional sourcing, procurement, logistics coordination and commercial supply chain support.</p>
-        </div>
-      </section>
-
-      <section class="intro band tab-content" data-tab-content="home">
-        <div class="section-heading">
-          <p class="eyebrow">Company Positioning</p>
-          <h2>Connecting global markets through reliable trade solutions.</h2>
-        </div>
-        <p>Everest Supplies Australia is a diversified international trading and supply chain company headquartered in Melbourne, Australia. We support businesses with end-to-end import, export, procurement, logistics coordination and commercial consulting services across multiple industries.</p>
-      </section>
-
-      <section class="stats tab-content" data-tab-content="home" aria-label="Company strengths">
-        <article><strong>Global</strong><span>Supplier and buyer networks</span></article>
-        <article><strong>End-to-end</strong><span>Procurement to logistics support</span></article>
-        <article><strong>Multi-sector</strong><span>Trade capability across industries</span></article>
-        <article><strong>Long-term</strong><span>Partnership-focused delivery</span></article>
-      </section>
-
-      <section class="section split tab-content" id="about" data-tab-content="about">
-        <div class="section-heading">
-          <p class="eyebrow">About Us</p>
-          <h2>Professional sourcing, procurement and market access from Australia.</h2>
-        </div>
-        <div class="split-body">
-          <p>Everest Supplies Australia is a privately owned international trading company headquartered in Melbourne, Australia, focused on facilitating global commerce through trusted sourcing, procurement, import and export solutions.</p>
-          <p>Operating from Australia, we connect qualified suppliers with commercial buyers while supporting logistics, quality assurance, documentation and commercial transparency throughout the supply chain.</p>
-          <div class="value-grid">
-            <article><h3>Mission</h3><p>To create value by connecting global suppliers and customers through trusted trade partnerships.</p></article>
-            <article><h3>Vision</h3><p>To become a leading international trading and supply chain solutions provider in Australia and the Asia-Pacific region.</p></article>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Australian Real Estate Development</p>
+          <h1 data-i18n="hero.title">Strategic Real Estate Development Across Australia</h1>
+          <p class="hero-copy" data-i18n="hero.copy">Australia Sunshine Development plans and delivers residential, commercial and strategic real estate projects across Australia's major cities, creating enduring value for communities, investors and partners.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="hero.explore">Explore Projects</a>
+            <a class="button secondary" href="#contact" data-i18n="hero.contact">Contact Us</a>
           </div>
         </div>
       </section>
 
-      <section class="section services tab-content" id="services" data-tab-content="services">
-        <div class="section-heading wide">
-          <p class="eyebrow">Products & Services</p>
-          <h2>Practical trade support across sourcing, logistics and market development.</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card"><span class="card-index">01</span><h3>Import Solutions</h3><ul><li>Product sourcing</li><li>Supplier identification</li><li>Procurement management</li><li>Quality assurance</li><li>Customs and logistics coordination</li></ul></article>
-          <article class="service-card"><span class="card-index">02</span><h3>Export Solutions</h3><ul><li>Market development</li><li>International distribution</li><li>Export documentation</li><li>Freight coordination</li><li>Regulatory compliance support</li></ul></article>
-          <article class="service-card"><span class="card-index">03</span><h3>Strategic Procurement</h3><ul><li>Cost-effective sourcing strategy</li><li>Supplier qualification</li><li>Product verification</li><li>Commercial negotiations</li><li>Long-term procurement planning</li></ul></article>
-          <article class="service-card"><span class="card-index">04</span><h3>Supply Chain Management</h3><ul><li>Sea, air and road freight coordination</li><li>Warehousing and distribution support</li><li>Inventory planning</li><li>Product inspection</li><li>Documentation management</li></ul></article>
-        </div>
-      </section>
-
-      <section class="section industries tab-content" id="industries" data-tab-content="industries">
+      <section class="section intro-band">
         <div class="section-heading">
-          <p class="eyebrow">Industries</p>
-          <h2>Built for diverse commercial sourcing needs.</h2>
+          <p class="eyebrow" data-i18n="intro.eyebrow">Company Positioning</p>
+          <h2 data-i18n="intro.title">A trusted development partner for strategic growth corridors.</h2>
         </div>
-        <div class="industry-list">
-          <article><h3>Construction & Building Materials</h3><p>Construction materials, infrastructure products and industrial supplies.</p></article>
-          <article><h3>Furniture & Upholstery</h3><p>Foam products, furniture components and upholstery materials.</p></article>
-          <article><h3>Industrial Products</h3><p>Manufacturing supplies, engineering materials and industrial equipment.</p></article>
-          <article><h3>Agriculture & Food Products</h3><p>Agricultural commodities, packaged foods and specialty products.</p></article>
-          <article><h3>Consumer Goods</h3><p>Household products, lifestyle products and retail merchandise.</p></article>
-          <article><h3>Renewable Energy & Infrastructure</h3><p>Energy equipment, infrastructure materials and project procurement.</p></article>
+        <div class="intro-copy">
+          <p data-i18n="intro.copy1">Australia Sunshine Development identifies high-potential sites and transforms them into residential communities, commercial destinations and long-term development opportunities.</p>
+          <p data-i18n="intro.copy2">The company brings a disciplined approach to site selection, planning, partnerships and project delivery, with a focus on growth markets across Melbourne and Sydney.</p>
         </div>
       </section>
 
-      <section class="section why tab-content" data-tab-content="services">
+      <section class="section projects-section" id="projects">
         <div class="section-heading wide">
-          <p class="eyebrow">Why Choose Us</p>
-          <h2>Reliable commercial execution, from supplier selection to delivery coordination.</h2>
+          <p class="eyebrow" data-i18n="projects.eyebrow">Featured Projects</p>
+          <h2 data-i18n="projects.title">Current pipeline across Australia.</h2>
         </div>
-        <div class="why-grid">
-          <article><h3>Global Supplier Network</h3><p>Established relationships with qualified suppliers worldwide.</p></article>
-          <article><h3>Quality Assurance</h3><p>Rigorous supplier selection and product quality control.</p></article>
-          <article><h3>Competitive Pricing</h3><p>Efficient sourcing strategies that optimize procurement costs.</p></article>
-          <article><h3>Reliable Delivery</h3><p>Professional logistics coordination and supply chain management.</p></article>
-          <article><h3>Industry Experience</h3><p>Strong understanding of international trade practices and commercial operations.</p></article>
-          <article><h3>Customer-Centric Approach</h3><p>Tailored solutions designed around client requirements.</p></article>
+        <div class="project-tools" aria-label="Project filters">
+          <label>
+            <span data-i18n="filters.keyword">Keyword</span>
+            <input id="projectSearch" type="search" data-i18n-placeholder="filters.searchPlaceholder" placeholder="Search by suburb, address or type">
+          </label>
+          <label>
+            <span data-i18n="filters.location">Location</span>
+            <select id="locationFilter">
+              <option value="all" data-i18n="filters.allLocations">All locations</option>
+              <option value="Melbourne" data-i18n="city.melbourne">Melbourne</option>
+              <option value="Sydney" data-i18n="city.sydney">Sydney</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="filters.type">Type</span>
+            <select id="typeFilter">
+              <option value="all" data-i18n="filters.allTypes">All types</option>
+              <option value="Residential Development" data-i18n="type.residentialShort">Residential</option>
+              <option value="Commercial Development" data-i18n="type.commercialShort">Commercial</option>
+              <option value="Strategic Development Opportunity" data-i18n="type.strategicShort">Strategic Land</option>
+            </select>
+          </label>
+          <div class="view-toggle" role="group" aria-label="Project view">
+            <button class="is-active" type="button" data-view="grid" data-i18n="filters.grid">Grid</button>
+            <button type="button" data-view="map" data-i18n="filters.map">Map</button>
+          </div>
         </div>
-      </section>
-
-      <section class="section projects tab-content" id="projects" data-tab-content="projects">
-        <div class="section-heading">
-          <p class="eyebrow">Projects & Success Stories</p>
-          <h2>Representative support areas.</h2>
-        </div>
-        <div class="project-timeline">
-          <article><span>Procurement</span><h3>International Procurement Support</h3><p>Delivered sourcing and procurement support for commercial and industrial purchasing requirements.</p></article>
-          <article><span>Operations</span><h3>Supply Chain Optimization</h3><p>Helped improve procurement efficiency, supplier communication and delivery coordination.</p></article>
-          <article><span>Market Access</span><h3>Export Market Development</h3><p>Supported Australian suppliers in identifying international market and distribution pathways.</p></article>
-        </div>
-      </section>
-
-      <section class="section contact tab-content" id="contact" data-tab-content="contact">
-        <div class="contact-panel">
-          <div>
-            <p class="eyebrow">Contact Us</p>
-            <h2>Start a sourcing, import or export enquiry.</h2>
-            <p>Tell us what you need to source, export or coordinate. Everest Supplies Australia can help assess supplier options, procurement approach and logistics pathways.</p>
-            <div class="contact-details">
-              <span>Everest Supplies Australia</span>
-              <span>Headquarters: Melbourne, Australia</span>
-              <a href="mailto:sales@everestsupplies.com.au">sales@everestsupplies.com.au</a>
-              <span>International Trade</span>
-              <span>Import & Export Services</span>
-              <span>Procurement Solutions</span>
-              <span>Supply Chain Management</span>
+        <div class="project-grid" id="projectGrid"></div>
+        <div class="pipeline-map" id="pipelineMap" hidden>
+          <div class="map-panel">
+            <span class="map-dot melbourne"></span>
+            <span class="map-dot sydney"></span>
+            <div class="map-copy">
+              <p class="eyebrow" data-i18n="map.eyebrow">Development Pipeline Map</p>
+              <h3 data-i18n="map.title">Melbourne and Sydney growth focus</h3>
+              <p data-i18n="map.copy">Pipeline activity is currently concentrated in established and emerging corridors, with future growth locations assessed through planning, infrastructure and community demand signals.</p>
             </div>
           </div>
-          <form class="contact-form" id="contactForm" action="https://formsubmit.co/sales@everestsupplies.com.au" method="POST">
-            <input type="hidden" name="_subject" id="formSubject" value="Website enquiry - General">
-            <input type="hidden" name="_replyto" id="formReplyTo" value="">
-            <input type="hidden" name="_next" id="formNext" value="">
-            <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display: none;">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_captcha" value="false">
-            <label>Name<input name="name" required autocomplete="name"></label>
-            <label>Company<input name="company" autocomplete="organization"></label>
-            <label>Email<input name="email" type="email" required autocomplete="email"></label>
-            <label>Phone<input name="phone" autocomplete="tel"></label>
-            <label>Country<input name="country" autocomplete="country-name"></label>
-            <label>Inquiry Type
-              <select name="type" required>
-                <option value="">Select inquiry type</option>
-                <option>Import Services</option>
-                <option>Export Services</option>
-                <option>Procurement Services</option>
-                <option>Supply Chain Management</option>
-                <option>Commercial Consulting</option>
-              </select>
-            </label>
-            <label class="full">Message<textarea name="message" rows="5" required></textarea></label>
-            <button class="button primary full" type="submit">Submit Enquiry</button>
-            <p class="form-status" id="formStatus" role="status"></p>
-          </form>
         </div>
+      </section>
+
+      <section class="section why-section">
+        <div class="section-heading wide">
+          <p class="eyebrow" data-i18n="why.eyebrow">Why Sunshine Development</p>
+          <h2 data-i18n="why.title">Commercial discipline, long-term thinking and place-led execution.</h2>
+        </div>
+        <div class="value-grid">
+          <article><h3 data-i18n="why.card1.title">Strategic Site Selection</h3><p data-i18n="why.card1.copy">Targeting land and assets in corridors with infrastructure, population and employment growth.</p></article>
+          <article><h3 data-i18n="why.card2.title">Planning & Development Expertise</h3><p data-i18n="why.card2.copy">Guiding opportunities through feasibility, planning pathways, consultant coordination and delivery readiness.</p></article>
+          <article><h3 data-i18n="why.card3.title">Residential Communities</h3><p data-i18n="why.card3.copy">Creating places that support everyday living, amenity, connectivity and long-term community value.</p></article>
+          <article><h3 data-i18n="why.card4.title">Commercial Precincts</h3><p data-i18n="why.card4.copy">Developing business-ready destinations that support logistics, employment and local economic activity.</p></article>
+          <article><h3 data-i18n="why.card5.title">Partnership-Driven Delivery</h3><p data-i18n="why.card5.copy">Working with landowners, consultants, agencies, builders and investors through clear commercial structures.</p></article>
+          <article><h3 data-i18n="why.card6.title">Long-Term Value Creation</h3><p data-i18n="why.card6.copy">Balancing commercial outcomes with design quality, planning integrity and sustainable growth.</p></article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.title">Real estate development guided by strategy and long-term value.</h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-image">
+            <img src="assets/about-australian-home-exterior.png" alt="Premium modern Australian home exterior">
+          </div>
+          <div class="about-copy">
+            <p data-i18n="about.copy">Australia Sunshine Development is an Australian property development company focused on high-quality residential, commercial, mixed-use and strategic development projects.</p>
+            <div class="mission-grid">
+              <article><span data-i18n="about.vision.title">Vision</span><p data-i18n="about.vision.copy">To shape tomorrow's communities through thoughtful site selection, planning and development.</p></article>
+              <article><span data-i18n="about.mission.title">Mission</span><p data-i18n="about.mission.copy">To deliver projects that create lasting value for communities, investors, businesses and future generations.</p></article>
+              <article><span data-i18n="about.philosophy.title">Philosophy</span><p data-i18n="about.philosophy.copy">Development decisions should be commercially sound, community aware and designed for long-term relevance.</p></article>
+              <article><span data-i18n="about.sustainability.title">Sustainability</span><p data-i18n="about.sustainability.copy">Future projects will consider environmental responsibility, efficient land use and sustainable urban growth.</p></article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section capabilities-section" id="capabilities">
+        <div class="section-heading wide">
+          <p class="eyebrow" data-i18n="capabilities.eyebrow">Development Capabilities</p>
+          <h2 data-i18n="capabilities.title">Integrated capability from opportunity assessment to project delivery.</h2>
+        </div>
+        <div class="capability-list">
+          <article><span>01</span><h3 data-i18n="capabilities.card1.title">Residential Development</h3><p data-i18n="capabilities.card1.copy">Townhouse, apartment and community-focused residential opportunities.</p></article>
+          <article><span>02</span><h3 data-i18n="capabilities.card2.title">Commercial Development</h3><p data-i18n="capabilities.card2.copy">Commercial assets, business precincts and employment-generating sites.</p></article>
+          <article><span>03</span><h3 data-i18n="capabilities.card3.title">Mixed Use Development</h3><p data-i18n="capabilities.card3.copy">Integrated projects combining residential, retail, commercial and community uses.</p></article>
+          <article><span>04</span><h3 data-i18n="capabilities.card4.title">Strategic Land Development</h3><p data-i18n="capabilities.card4.copy">Land identification, site consolidation, rezoning pathways and long-range value creation.</p></article>
+          <article><span>05</span><h3 data-i18n="capabilities.card5.title">Project Management</h3><p data-i18n="capabilities.card5.copy">Consultant coordination, program control, delivery governance and stakeholder reporting.</p></article>
+          <article><span>06</span><h3 data-i18n="capabilities.card6.title">Planning and Approvals</h3><p data-i18n="capabilities.card6.copy">Planning strategy, permit pathways, authority engagement and approval coordination.</p></article>
+          <article><span>07</span><h3 data-i18n="capabilities.card7.title">Stakeholder Engagement</h3><p data-i18n="capabilities.card7.copy">Working with communities, consultants, agencies, builders and commercial partners.</p></article>
+          <article><span>08</span><h3 data-i18n="capabilities.card8.title">Investment Partnerships</h3><p data-i18n="capabilities.card8.copy">Structured opportunities for landowners, private investors and institutional capital partners.</p></article>
+        </div>
+      </section>
+
+      <section class="partnership-cta" id="partnerships">
+        <div>
+          <p class="eyebrow" data-i18n="partnerships.eyebrow">Partnerships</p>
+          <h2 data-i18n="partnerships.title">Partner With Sunshine Development</h2>
+          <p data-i18n="partnerships.copy">We welcome opportunities with landowners, investors, consultants and development partners seeking disciplined Australian property development capability.</p>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Discuss a site, project or investment opportunity.</h2>
+          <p data-i18n="contact.copy">Contact Australia Sunshine Development for project enquiries, partnership discussions, landowner opportunities and investor engagement.</p>
+          <div class="contact-tags">
+            <a href="mailto:office@ausunshinedev.com.au">office@ausunshinedev.com.au</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label><span data-i18n="form.name">Name</span><input name="name" autocomplete="name" required></label>
+          <label><span data-i18n="form.company">Company</span><input name="company" autocomplete="organization"></label>
+          <label><span data-i18n="form.email">Email</span><input name="email" type="email" autocomplete="email" required></label>
+          <label><span data-i18n="form.phone">Phone</span><input name="phone" autocomplete="tel"></label>
+          <label><span data-i18n="form.enquiryType">Enquiry Type</span>
+            <select name="type" required>
+              <option value="" data-i18n="form.selectType">Select enquiry type</option>
+              <option data-i18n="form.projectEnquiry">Project enquiry</option>
+              <option data-i18n="form.investmentPartnership">Investment partnership</option>
+              <option data-i18n="form.landownerOpportunity">Landowner opportunity</option>
+              <option data-i18n="form.consultantSupplier">Consultant or supplier</option>
+              <option data-i18n="form.mediaGeneral">Media or general</option>
+            </select>
+          </label>
+          <label><span data-i18n="form.location">Location</span><input name="location" data-i18n-placeholder="form.locationPlaceholder" placeholder="Melbourne, Sydney or other"></label>
+          <label class="full"><span data-i18n="form.message">Message</span><textarea name="message" rows="5" required></textarea></label>
+          <button class="button primary full" type="submit" data-i18n="form.submit">Submit Enquiry</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
       </section>
     </main>
 
+    <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+      <button class="dialog-close" type="button" aria-label="Close project details">&times;</button>
+      <div id="projectDialogContent"></div>
+    </dialog>
+
     <footer class="site-footer">
-      <span>Copyright &copy; 2026. Everest Supplies. All Rights Reserved.</span>
+      <span class="footer-brand">
+        <img src="assets/sunshine-development-symbol.png" alt="">
+        <span>Australia Sunshine Development</span>
+      </span>
+      <span data-i18n="footer.copy">Copyright &copy; 2026 Australia Sunshine Development. All Rights Reserved.</span>
     </footer>
 
-    <script src="app.js?v=formsubmit-20260605"></script>
+    <script src="app.js?v=sunshine-development-prelaunch-copy-20260608"></script>
   </body>
 </html>
