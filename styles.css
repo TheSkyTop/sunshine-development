@@ -259,12 +259,13 @@ p {
 }
 
 h1 {
-  max-width: 760px;
+  max-width: 1060px;
   margin-bottom: 20px;
   color: #fff;
-  font-size: clamp(41px, 5vw, 70px);
-  font-weight: 720;
-  line-height: 1.06;
+  font-size: clamp(38px, 4.05vw, 58px);
+  font-weight: 690;
+  line-height: 1.12;
+  text-wrap: balance;
 }
 
 h2 {
@@ -303,8 +304,8 @@ html:lang(zh-CN) .eyebrow {
 
 html:lang(zh-CN) h1 {
   max-width: 820px;
-  font-size: clamp(40px, 4.55vw, 64px);
-  font-weight: 720;
+  font-size: clamp(38px, 4.1vw, 58px);
+  font-weight: 690;
   line-height: 1.12;
 }
 
@@ -751,6 +752,20 @@ html:lang(zh-CN) .capability-list span {
   grid-template-columns: minmax(280px, 0.72fr) minmax(420px, 1.28fr);
   gap: clamp(34px, 5vw, 76px);
   align-items: start;
+}
+
+.about-section .section-heading {
+  grid-column: 1 / -1;
+  max-width: 780px;
+}
+
+.about-section h2 {
+  max-width: 760px;
+  color: #263d78;
+  font-size: clamp(30px, 2.28vw, 36px);
+  font-weight: 680;
+  line-height: 1.18;
+  text-wrap: balance;
 }
 
 .about-layout {
