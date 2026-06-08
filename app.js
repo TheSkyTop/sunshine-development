@@ -526,11 +526,6 @@ function projectCard(project) {
     <article class="project-card">
       <img src="${project.image}" alt="${localized(project.name)}">
       <div class="project-card-body">
-        <div class="project-meta">
-          <span>${localized(project.city)}</span>
-          <span>${localized(project.type)}</span>
-          <span>${localized(project.status)}</span>
-        </div>
         <h3>${localized(project.name)}</h3>
         <p>${localized(project.description)}</p>
         <button class="button primary" type="button" data-project-id="${project.id}">${t("project.learnMore")}</button>

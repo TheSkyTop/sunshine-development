@@ -246,7 +246,7 @@ select {
   margin: 0 0 12px;
   color: var(--gold);
   font-size: 15px;
-  font-weight: 820;
+  font-weight: 720;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -299,7 +299,7 @@ html:lang(zh-CN) .view-toggle button {
 
 html:lang(zh-CN) .eyebrow {
   font-size: 15.5px;
-  font-weight: 820;
+  font-weight: 720;
 }
 
 html:lang(zh-CN) h1 {
@@ -332,12 +332,11 @@ html:lang(zh-CN) .contact-copy p {
   line-height: 1.82;
 }
 
-html:lang(zh-CN) .project-meta span,
 html:lang(zh-CN) .contact-tags a,
 html:lang(zh-CN) .mission-grid span,
 html:lang(zh-CN) .capability-list span {
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .hero-copy {
@@ -363,7 +362,7 @@ html:lang(zh-CN) .capability-list span {
   border: 1px solid transparent;
   border-radius: var(--radius);
   font-size: 16px;
-  font-weight: 740;
+  font-weight: 680;
   text-decoration: none;
   transition:
     background 0.28s var(--ease),
@@ -595,14 +594,13 @@ html:lang(zh-CN) .capability-list span {
   padding: 21px;
 }
 
-.project-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 15px;
+.project-card h3 {
+  color: #2d426f;
+  font-size: clamp(18px, 1.05vw, 20px);
+  font-weight: 600;
+  line-height: 1.34;
 }
 
-.project-meta span,
 .contact-tags span,
 .contact-tags a {
   display: inline-flex;
@@ -689,7 +687,7 @@ html:lang(zh-CN) .capability-list span {
   top: -2px;
   min-width: 96px;
   color: #fff;
-  font-weight: 900;
+  font-weight: 720;
 }
 
 .map-dot.melbourne {
@@ -761,10 +759,6 @@ html:lang(zh-CN) .capability-list span {
 
 .about-section h2 {
   max-width: 760px;
-  color: #263d78;
-  font-size: clamp(30px, 2.28vw, 36px);
-  font-weight: 680;
-  line-height: 1.18;
   text-wrap: balance;
 }
 
@@ -806,7 +800,7 @@ html:lang(zh-CN) .capability-list span {
   margin-bottom: 10px;
   color: var(--gold);
   font-size: 14.5px;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -920,7 +914,7 @@ html:lang(zh-CN) .capability-list span {
   min-height: 22px;
   margin: 0;
   color: var(--navy);
-  font-weight: 850;
+  font-weight: 680;
 }
 
 .project-dialog {
@@ -1008,7 +1002,7 @@ html:lang(zh-CN) .capability-list span {
   display: block;
   color: var(--muted);
   font-size: 13px;
-  font-weight: 850;
+  font-weight: 680;
   text-transform: uppercase;
 }
 
