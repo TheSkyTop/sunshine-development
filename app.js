@@ -26,7 +26,7 @@ const translations = {
     "projects.eyebrow": "Featured Projects",
     "projects.title": "Current pipeline across Australia",
     "filters.keyword": "Keyword",
-    "filters.searchPlaceholder": "Search by suburb, address or type",
+    "filters.searchPlaceholder": "Search by suburb, region or type",
     "filters.location": "Location",
     "filters.allLocations": "All locations",
     "filters.type": "Type",
@@ -148,7 +148,7 @@ const translations = {
     "projects.eyebrow": "精选项目",
     "projects.title": "布局澳大利亚主要城市的项目储备",
     "filters.keyword": "关键词",
-    "filters.searchPlaceholder": "按城区、地址或类型搜索",
+    "filters.searchPlaceholder": "按城区、区域或类型搜索",
     "filters.location": "城市",
     "filters.allLocations": "全部地点",
     "filters.type": "类型",
@@ -247,8 +247,8 @@ const translations = {
 
 const projects = [
   {
-    id: "980-hume-freeway-craigieburn",
-    name: { en: "980 Hume Freeway, Craigieburn", zh: "980 Hume Freeway, Craigieburn" },
+    id: "craigieburn-victoria",
+    name: { en: "Craigieburn, Victoria", zh: "Craigieburn，维多利亚州" },
     city: "Melbourne",
     location: { en: "Craigieburn, Victoria", zh: "Craigieburn，维多利亚州" },
     type: { en: "Strategic Development Opportunity", zh: "重点开发机会" },
@@ -269,8 +269,8 @@ const projects = [
     }
   },
   {
-    id: "565-epping-road-wollert",
-    name: { en: "565 Epping Road, Wollert VIC 3750", zh: "565 Epping Road, Wollert VIC 3750" },
+    id: "wollert-victoria",
+    name: { en: "Wollert, Victoria", zh: "Wollert，维多利亚州" },
     city: "Melbourne",
     location: { en: "Wollert, Victoria", zh: "Wollert，维多利亚州" },
     type: { en: "Residential Development", zh: "住宅开发" },
@@ -291,8 +291,8 @@ const projects = [
     }
   },
   {
-    id: "30-fulton-drive-derrimut",
-    name: { en: "30 Fulton Drive, Derrimut", zh: "30 Fulton Drive, Derrimut" },
+    id: "derrimut-victoria",
+    name: { en: "Derrimut, Victoria", zh: "Derrimut，维多利亚州" },
     city: "Melbourne",
     location: { en: "Derrimut, Victoria", zh: "Derrimut，维多利亚州" },
     type: { en: "Commercial Development", zh: "商业开发" },
@@ -313,8 +313,8 @@ const projects = [
     }
   },
   {
-    id: "18-wallis-avenue-glen-iris",
-    name: { en: "18 Wallis Avenue, Glen Iris", zh: "18 Wallis Avenue, Glen Iris" },
+    id: "glen-iris-victoria",
+    name: { en: "Glen Iris, Victoria", zh: "Glen Iris，维多利亚州" },
     city: "Melbourne",
     location: { en: "Glen Iris, Victoria", zh: "Glen Iris，维多利亚州" },
     type: { en: "Residential Development", zh: "住宅开发" },
@@ -335,8 +335,8 @@ const projects = [
     }
   },
   {
-    id: "76-sydney-road-warriewood",
-    name: { en: "76 Sydney Road, Warriewood", zh: "76 Sydney Road, Warriewood" },
+    id: "warriewood-new-south-wales",
+    name: { en: "Warriewood, New South Wales", zh: "Warriewood，新南威尔士州" },
     city: "Sydney",
     location: { en: "Warriewood, New South Wales", zh: "Warriewood，新南威尔士州" },
     type: { en: "Residential Development", zh: "住宅开发" },
@@ -357,8 +357,8 @@ const projects = [
     }
   },
   {
-    id: "4-cameron-avenue-manly",
-    name: { en: "4 Cameron Avenue, Manly", zh: "4 Cameron Avenue, Manly" },
+    id: "manly-new-south-wales",
+    name: { en: "Manly, New South Wales", zh: "Manly，新南威尔士州" },
     city: "Sydney",
     location: { en: "Manly, New South Wales", zh: "Manly，新南威尔士州" },
     type: { en: "Residential Development", zh: "住宅开发" },
