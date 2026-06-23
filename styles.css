@@ -326,6 +326,7 @@ html:lang(zh-CN) .value-grid p,
 html:lang(zh-CN) .about-copy p,
 html:lang(zh-CN) .mission-grid p,
 html:lang(zh-CN) .capability-list p,
+html:lang(zh-CN) .authority-grid p,
 html:lang(zh-CN) .partnership-cta p,
 html:lang(zh-CN) .contact-copy p {
   font-size: 17px;
@@ -621,6 +622,7 @@ html:lang(zh-CN) .capability-list span {
 .about-copy p,
 .mission-grid p,
 .capability-list p,
+.authority-grid p,
 .news-grid p,
 .partnership-cta p,
 .contact-copy p {
@@ -710,6 +712,7 @@ html:lang(zh-CN) .capability-list span {
 
 .value-grid,
 .mission-grid,
+.authority-grid,
 .news-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -718,6 +721,7 @@ html:lang(zh-CN) .capability-list span {
 
 .value-grid article,
 .mission-grid article,
+.authority-grid article,
 .news-grid article,
 .capability-list article {
   padding: 22px;
@@ -734,6 +738,7 @@ html:lang(zh-CN) .capability-list span {
 
 .value-grid article:hover,
 .mission-grid article:hover,
+.authority-grid article:hover,
 .news-grid article:hover,
 .capability-list article:hover {
   border-color: rgba(189, 150, 80, 0.3);
@@ -830,6 +835,14 @@ html:lang(zh-CN) .capability-list span {
 
 .capability-list p {
   color: rgba(255, 255, 255, 0.74);
+}
+
+.authority-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f8fc 100%);
+}
+
+.authority-grid article {
+  border-top: 4px solid rgba(189, 150, 80, 0.55);
 }
 
 .partnership-cta,
@@ -1082,6 +1095,7 @@ html:lang(zh-CN) .capability-list span {
   .snapshot,
   .project-grid,
   .value-grid,
+  .authority-grid,
   .news-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1199,10 +1213,12 @@ html:lang(zh-CN) .capability-list span {
   }
 
   h1 {
-    max-width: calc(100vw - 36px);
-    font-size: clamp(28px, 7.2vw, 32px);
-    line-height: 1.1;
-    overflow-wrap: break-word;
+    max-width: min(100%, 330px);
+    font-size: clamp(25px, 6.4vw, 29px);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: auto;
   }
 
   .hero-copy {
@@ -1229,6 +1245,7 @@ html:lang(zh-CN) .capability-list span {
   .value-grid,
   .mission-grid,
   .news-grid,
+  .authority-grid,
   .capability-list,
   .project-tools,
   .contact-form {

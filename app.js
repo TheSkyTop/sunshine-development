@@ -1,7 +1,7 @@
 const translations = {
   en: {
-    "meta.title": "Australia Sunshine Development | Property Development Australia",
-    "meta.description": "Australia Sunshine Development is an Australian property development company delivering residential, commercial, mixed-use and strategic development projects across Melbourne and Sydney.",
+    "meta.title": "Sunshine Development | Australian Infrastructure, Data Centre & Property Developer",
+    "meta.description": "Sunshine Development is an Australian development and investment company delivering data centre, infrastructure, industrial and strategic property projects across Australia.",
     "nav.openMenu": "Open menu",
     "nav.home": "Home",
     "nav.about": "About",
@@ -9,9 +9,9 @@ const translations = {
     "nav.capabilities": "Capabilities",
     "nav.partnerships": "Partnerships",
     "nav.contact": "Contact",
-    "hero.eyebrow": "Australian Real Estate Development",
-    "hero.title": "Strategic Real Estate Development Across Australia",
-    "hero.copy": "Australia Sunshine Development plans and delivers residential, commercial and strategic real estate projects across Australia's major cities, creating enduring value for communities, investors and partners.",
+    "hero.eyebrow": "Australian Development & Infrastructure Investment",
+    "hero.title": "Development, Infrastructure & Investment Solutions for Australia",
+    "hero.copy": "Sunshine Development is a Melbourne-based Australian development company focused on data centre development, energy infrastructure, industrial development, strategic land and property investment opportunities across Australia.",
     "hero.explore": "Explore Projects",
     "hero.contact": "Contact Us",
     "snapshot.pipeline": "Projects Pipeline",
@@ -20,9 +20,9 @@ const translations = {
     "snapshot.commercial": "Commercial Project",
     "snapshot.future": "Future Opportunities",
     "intro.eyebrow": "Company Positioning",
-    "intro.title": "A trusted development partner for strategic growth corridors",
-    "intro.copy1": "Australia Sunshine Development identifies high-potential sites and transforms them into residential communities, commercial destinations and long-term development opportunities.",
-    "intro.copy2": "The company brings a disciplined approach to site selection, planning, partnerships and project delivery, with a focus on growth markets across Melbourne and Sydney.",
+    "intro.title": "Australian development capability for infrastructure, land and long-term investment projects",
+    "intro.copy1": "Headquartered in Melbourne, Sunshine Development identifies and advances development opportunities across Victoria and Australia, including data centre development, energy infrastructure, industrial land, commercial development and strategic property projects.",
+    "intro.copy2": "The company applies a disciplined approach to site selection, master planning, authority engagement, infrastructure assessment, investment structuring and project delivery governance.",
     "projects.eyebrow": "Featured Projects",
     "projects.title": "Current pipeline across Australia",
     "filters.keyword": "Keyword",
@@ -57,7 +57,7 @@ const translations = {
     "why.card6.copy": "Balancing commercial outcomes with design quality, planning integrity and sustainable growth.",
     "about.eyebrow": "About",
     "about.title": "Real estate development guided by strategy and long-term value",
-    "about.copy": "Australia Sunshine Development is an Australian property development company focused on high-quality residential, commercial, mixed-use and strategic development projects.",
+    "about.copy": "Sunshine Development is an Australian development and investment company headquartered in Melbourne, focused on data centre, infrastructure, industrial, commercial, strategic land and property development opportunities across Australia.",
     "about.vision.title": "Vision",
     "about.vision.copy": "To shape tomorrow's communities through thoughtful site selection, planning and development.",
     "about.mission.title": "Mission",
@@ -68,12 +68,12 @@ const translations = {
     "about.sustainability.copy": "Future projects will consider environmental responsibility, efficient land use and sustainable urban growth.",
     "capabilities.eyebrow": "Development Capabilities",
     "capabilities.title": "Integrated capability from opportunity assessment to project delivery",
-    "capabilities.card1.title": "Residential Development",
-    "capabilities.card1.copy": "Townhouse, apartment and community-focused residential opportunities.",
-    "capabilities.card2.title": "Commercial Development",
-    "capabilities.card2.copy": "Commercial assets, business precincts and employment-generating sites.",
-    "capabilities.card3.title": "Mixed Use Development",
-    "capabilities.card3.copy": "Integrated projects combining residential, retail, commercial and community uses.",
+    "capabilities.card1.title": "Data Centre Development",
+    "capabilities.card1.copy": "Site identification, power and fibre considerations, planning pathways and delivery strategy for digital infrastructure opportunities.",
+    "capabilities.card2.title": "Energy Infrastructure",
+    "capabilities.card2.copy": "Development support for energy infrastructure, grid-aware land use, renewable energy development and project interface planning.",
+    "capabilities.card3.title": "Industrial Development",
+    "capabilities.card3.copy": "Industrial land, logistics-oriented sites and employment-generating development opportunities across key growth corridors.",
     "capabilities.card4.title": "Strategic Land Development",
     "capabilities.card4.copy": "Land identification, site consolidation, rezoning pathways and long-range value creation.",
     "capabilities.card5.title": "Project Management",
@@ -84,6 +84,20 @@ const translations = {
     "capabilities.card7.copy": "Working with communities, consultants, agencies, builders and commercial partners.",
     "capabilities.card8.title": "Investment Partnerships",
     "capabilities.card8.copy": "Structured opportunities for landowners, private investors and institutional capital partners.",
+    "authority.eyebrow": "Industry Expertise",
+    "authority.title": "Development governance for infrastructure, property and investment outcomes",
+    "authority.data.title": "Data Centre Development",
+    "authority.data.copy": "Sunshine Development assesses data centre development opportunities through land suitability, power availability, fibre access, planning controls, delivery staging and long-term infrastructure demand.",
+    "authority.energy.title": "Energy Infrastructure",
+    "authority.energy.copy": "The company evaluates energy infrastructure and renewable energy development opportunities with attention to grid connection strategy, land use compatibility, stakeholder engagement and investment readiness.",
+    "authority.industrial.title": "Industrial Development",
+    "authority.industrial.copy": "Industrial development work focuses on logistics access, employment land, servicing requirements, planning feasibility and practical delivery pathways for commercial and industrial users.",
+    "authority.land.title": "Strategic Land Development",
+    "authority.land.copy": "Strategic land development combines site selection, master planning, infrastructure assessment, authority engagement and staged value creation across Australian growth corridors.",
+    "authority.investment.title": "Investment & Partnerships",
+    "authority.investment.copy": "Investment opportunities are approached through disciplined feasibility, transparent governance, partner alignment, risk assessment and long-term project vision.",
+    "authority.delivery.title": "Project Delivery",
+    "authority.delivery.copy": "Project delivery capability includes consultant coordination, approvals strategy, stakeholder engagement, program governance, reporting and transition from opportunity assessment to delivery readiness.",
     "partnerships.eyebrow": "Partnerships",
     "partnerships.title": "Partner With Sunshine Development",
     "partnerships.copy": "We welcome opportunities with landowners, investors, consultants and development partners seeking disciplined Australian property development capability.",
@@ -253,7 +267,7 @@ const projects = [
     location: { en: "Craigieburn, Victoria", zh: "Craigieburn，维多利亚州" },
     type: { en: "Strategic Development Opportunity", zh: "重点开发机会" },
     status: { en: "Pipeline assessment", zh: "项目储备评估" },
-    image: "assets/data-center-exterior-render.png",
+    image: "assets/data-centre-development-australia.png",
     description: {
       en: "A strategic land opportunity positioned within Melbourne's northern growth corridor, with future development potential subject to planning, feasibility and authority engagement.",
       zh: "位于墨尔本北部增长走廊的重点用地机会，具备中长期开发潜力。项目后续将结合规划条件、可行性研究及政府沟通进一步评估。"
@@ -275,7 +289,7 @@ const projects = [
     location: { en: "Wollert, Victoria", zh: "Wollert，维多利亚州" },
     type: { en: "Residential Development", zh: "住宅开发" },
     status: { en: "Planning pathway", zh: "规划路径研究" },
-    image: "assets/australian-residential-exterior.png",
+    image: "assets/property-development-melbourne.png",
     description: {
       en: "A residential development opportunity in an established northern growth area, focused on creating connected housing outcomes for future communities.",
       zh: "位于墨尔本北部成熟增长区域的住宅开发机会，重点关注社区连接性、居住便利性和未来住房需求。"
@@ -446,7 +460,7 @@ function revealElements(elements) {
 
 function setupRevealEffects() {
   const revealTargets = document.querySelectorAll(
-    ".section, .section-compact, .partnership-cta, .contact-section, .value-grid article, .mission-grid article, .capability-list article, .news-grid article"
+    ".section, .section-compact, .partnership-cta, .contact-section, .value-grid article, .mission-grid article, .capability-list article, .authority-grid article, .news-grid article"
   );
 
   if (!("IntersectionObserver" in window)) {
