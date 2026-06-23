@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sunshinedevelopment.com.au/sitemap.xml
+Sitemap: https://ausunshinedev.com.au/sitemap.xml
